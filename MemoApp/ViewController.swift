@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    private var mems: [Memo] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()

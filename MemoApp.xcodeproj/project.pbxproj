@@ -13,6 +13,10 @@
 		8B82F77F2B231EA0003FE88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B82F77D2B231EA0003FE88C /* Main.storyboard */; };
 		8B82F7812B231EA1003FE88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B82F7802B231EA1003FE88C /* Assets.xcassets */; };
 		8B82F7842B231EA1003FE88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B82F7822B231EA1003FE88C /* LaunchScreen.storyboard */; };
+		8B82F78C2B232049003FE88C /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82F78B2B232049003FE88C /* Memo.swift */; };
+		8B82F78E2B23209A003FE88C /* MemoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82F78D2B23209A003FE88C /* MemoAPIClient.swift */; };
+		8B82F7902B2321AA003FE88C /* URLCreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82F78F2B2321AA003FE88C /* URLCreater.swift */; };
+		8B82F7922B232AF2003FE88C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B82F7912B232AF2003FE88C /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8B82F7802B231EA1003FE88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B82F7832B231EA1003FE88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B82F7852B231EA1003FE88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B82F78B2B232049003FE88C /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		8B82F78D2B23209A003FE88C /* MemoAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAPIClient.swift; sourceTree = "<group>"; };
+		8B82F78F2B2321AA003FE88C /* URLCreater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLCreater.swift; sourceTree = "<group>"; };
+		8B82F7912B232AF2003FE88C /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				8B82F7802B231EA1003FE88C /* Assets.xcassets */,
 				8B82F7822B231EA1003FE88C /* LaunchScreen.storyboard */,
 				8B82F7852B231EA1003FE88C /* Info.plist */,
+				8B82F78B2B232049003FE88C /* Memo.swift */,
+				8B82F7912B232AF2003FE88C /* APIError.swift */,
+				8B82F78D2B23209A003FE88C /* MemoAPIClient.swift */,
+				8B82F78F2B2321AA003FE88C /* URLCreater.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			files = (
 				8B82F77C2B231EA0003FE88C /* ViewController.swift in Sources */,
 				8B82F7782B231EA0003FE88C /* AppDelegate.swift in Sources */,
+				8B82F78E2B23209A003FE88C /* MemoAPIClient.swift in Sources */,
 				8B82F77A2B231EA0003FE88C /* SceneDelegate.swift in Sources */,
+				8B82F78C2B232049003FE88C /* Memo.swift in Sources */,
+				8B82F7902B2321AA003FE88C /* URLCreater.swift in Sources */,
+				8B82F7922B232AF2003FE88C /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
